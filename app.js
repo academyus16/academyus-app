@@ -53,7 +53,7 @@ const rollCode = name => {
    SETUP: deploy the included Code.gs as a Web App (see README.md),
    then paste the resulting /exec URL below.
 --------------------------------------------------------------------- */
-const SHEET_API_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbxfKEVy6BoprHblu4MDg9y-vA4uvfNJi9TUD-dpPhgicIysrwFKhLXZl7e35GCYwLA4Rw/exec";
 const SHEET_CONFIGURED = SHEET_API_URL.indexOf("PASTE_YOUR") === -1;
 const KEY_TYPE = {
   "au-config": "config",
